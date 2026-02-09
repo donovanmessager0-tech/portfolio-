@@ -1,0 +1,146 @@
+@font-face {
+  font-family: Dungeon;
+  src: url(../OIP\ \(1\).webp); /* url of the font */
+}
+@font-face {
+  font-family: cosmic;
+  src: url(../foremost/Foremost\ Regular.otf); /* url of the font */
+}
+
+
+
+.container {
+        width: 1500px;
+    margin: 0 auto;
+background-color: #cb94f7;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255,255,255);
+    color: black;
+    padding: 20px 10px 20px 10px;
+    position: sticky;
+    top : 0
+    
+}
+
+.header-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:180px;
+    
+}
+
+.card {
+    
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+
+    
+
+}
+
+.block {
+    
+  width: 500px;
+
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 1px 1px 1px 1px;
+  background-color: WHITE;
+  text-align: center;
+
+  font-size: 30px;
+
+}
+.text2{
+      font-family: cosmic;
+
+}
+
+.header-2 div a {
+    color: black;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.header a:active {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.header a:hover {
+    text-decoration: none;
+    color:khaki;
+}
+
+.pic1 {
+    width: 75%;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+progress {
+    color: aqua;
+    
+}
+
+.title {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    background-color: rgba(255,255,255);
+    width: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Dungeon;
+    font-size: 25px;
+    text-align: center;
+
+    
+}
+
+.contact {
+    display: flex;
+    color: ivory;
+    gap:5px;
+    font-size: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.pres {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-content: space-between;
+    justify-content: space-between;
+    
+    
+}
